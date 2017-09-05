@@ -1,8 +1,8 @@
 {
-  "name": "react-native-country-picker-modal",
-  "version": "0.3.0",
-  "description": "Country picker",
-  "main": "src/CountryPicker.js",
+  "name": "react-native-picker-modal",
+  "version": "0.0.1",
+  "description": "Modal picker",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xcarpentier/react-native-country-picker-modal.git"

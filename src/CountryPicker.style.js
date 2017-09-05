@@ -52,6 +52,7 @@ export default StyleSheet.create({
     height: getHeightPercent(7),
     justifyContent: 'flex-start',
     alignItems: 'center',
+    paddingHorizontal: 40,
   },
   itemCountryFlag: {
     justifyContent: 'center',
@@ -60,13 +61,17 @@ export default StyleSheet.create({
     width: getWidthPercent(15),
   },
   itemCountryName: {
+    paddingHorizontal: 16,
     justifyContent: 'center',
     width: getWidthPercent(70),
+    // flexWrap: 'nowrap',
     borderBottomWidth: 2 / PixelRatio.get(),
     borderBottomColor: '#ccc',
     height: getHeightPercent(7),
   },
   countryName: {
+    // flex: 1,
+    // flexWrap: 'nowrap',
     fontSize: getHeightPercent(2.2),
   },
   scrollView: {
